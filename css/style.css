@@ -1,0 +1,27 @@
+body{
+    background: #000;
+}
+
+
+
+.header-title{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Readex Pro', sans-serif;
+color: white;
+margin-bottom: 80px; 
+
+margin-left:50px;
+}
+
+.header-text{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    font-size:80px;
+    margin-top: 50px;  
+    margin-left:50px;
+}
+.header-link{
+   text-decoration: none;
+   margin-bottom: 80px; 
+}
