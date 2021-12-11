@@ -2,15 +2,12 @@ body{
     outline: 2px white solid;
     background: #000;
 }
-
-
-
 .header-title{
 font-family: 'Libre Baskerville', serif;
 font-family: 'Readex Pro', sans-serif;
 color: white;
-margin-bottom: 80px; 
-
+margin-top: 80px; 
+margin: 0 auto;
 margin-left:50px;
 }
 
@@ -27,7 +24,38 @@ margin-left:50px;
    margin-bottom: 80px; 
 }
 .main{
+    width: 1000px;
+    height: 1510px;
     display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 500px 460px;
+    grid-template-rows: 500px 640px 140px 200px;
+    outline: 2px solid whitesmoke;
+    grid-column-gap:30px;
+    margin-left:50px;
 }
+.main-image1{
+    width: 500px;
+    height: 460px;
+    grid-column: 1/2;
+}
+
+.main-image2{
+    width: 330px;
+    height: 460px;
+    grid-column: 2/3;
+}
+
+.main-image3{
+    width: 400px;
+    height: 625px;
+    grid-column:2/3; 
+}
+.main-image4{
+   width: 450px;
+    grid-column: 2/3;
+    height: 650px;
+    
+}
+a{
+  outline: 2px solid grey; 
+} 
