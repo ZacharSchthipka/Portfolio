@@ -1,63 +1,68 @@
-body{
-  
+body {
+
     background: #000;
 }
-.header-title{
-font-family: 'Libre Baskerville', serif;
-font-family: 'Readex Pro', sans-serif;
-color: white;
-margin-top: 80px; 
-margin: 0 auto;
-margin-left:50px;
-}
 
-.header-text{
+.header-title {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Readex Pro', sans-serif;
     color: white;
-    font-size:80px;
-    margin-top: 50px;  
-    margin-left:50px;
+    margin-top: 80px;
+    margin: 0 auto;
+    margin-left: 50px;
 }
-.header-link{
-   text-decoration: none;
-   margin-bottom: 80px; 
+
+.header-text {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-.main{
+
+.header-link {
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.main {
     width: 1000px;
     height: 1510px;
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-rows: 500px 640px ;
-   
-    grid-column-gap:30px;
-    margin-left:50px;
-    grid-row-gap:20px;
+    grid-template-rows: 500px 640px;
+
+    grid-column-gap: 30px;
+    margin-left: 50px;
+    grid-row-gap: 20px;
 }
-.main-image1{
+
+.main-image1 {
     width: 500px;
     height: 460px;
     grid-column: 1/2;
 }
 
-.main-image2{
+.main-image2 {
     width: 430px;
     height: 460px;
     grid-column: 2/3;
 }
 
-.main-image3{
+.main-image3 {
     width: 500px;
     height: 625px;
-    grid-column:2/3; 
+    grid-column: 2/3;
 }
-.main-image4{
-   width: 430px;
+
+.main-image4 {
+    width: 430px;
     grid-column: 2/3;
     height: 625px;
-    
+
 }
 
-a{
-
-} 
+p {
+    margin-left: 30px;
+}

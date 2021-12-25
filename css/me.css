@@ -1,0 +1,40 @@
+body {
+    background: black;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Readex Pro', sans-serif;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+}
+
+.skate {
+    width: 200px;
+    height: 300px;
+    float: left;
+    border-radius: 15px;
+
+}
+
+.main {
+    border-radius: 15px;
+    height: 600px;
+    width: 1235px;
+    padding: 50px;
+    border: 2px solid white;
+}
+
+.skills {
+    position: absolute;
+    top: 400px;
+}
+
+.title{
+    margin: 0 auto;
+}
